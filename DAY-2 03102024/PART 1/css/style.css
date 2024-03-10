@@ -1,0 +1,117 @@
+/* CSS WORKS */
+
+/*
+
+SELECTOR {
+
+    KEY:VALUE;
+    KEY:VALUE;
+
+}
+
+
+*/
+
+
+
+/* SELECT USING TAGNAME */
+
+h3{
+    color: red;
+}
+
+
+#my-title{
+    color: blue;
+}
+
+.title{
+    color: yellow;
+}
+
+.size{
+    font-size: 40px;
+}
+
+
+
+
+.article > h3{
+    color: red;
+}
+
+
+.article > p {
+    color: gray;
+}
+
+.article.vue > h3{
+    color: green;
+}
+
+
+/*
+.list > li:first-child  {
+    color: red;
+}
+
+.list > li:last-child  {
+    color: blue;
+}*/
+
+/*
+.list > li:nth-child(2n)  {
+    color: red;
+}
+.list > li:nth-child(2n +1)  {
+    color: blue;
+}
+*/
+/*
+.list > li:nth-child(5)  {
+    color: red;
+} */
+
+ 
+.square {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* border-bottom: 0px; */
+    background-color: #2196F3;
+    padding: 10px;
+    /* padding: 10px 20px; */
+    /* padding: 10px 15px 20px 30px; */
+    margin: 15px;
+    /* margin: 15px 20px; */
+    /* margin: 10px 15px 20px 25px; */ 
+}
+
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black; 
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
+
+.para{
+    color: gray;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 36px;
+    letter-spacing: 7px;
+    font-size: 36px;
+    /*
+     font-weight: bold;
+    font-family: sans-serif;
+
+    */
+
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
