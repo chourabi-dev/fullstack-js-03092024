@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+.new-display{
+    display: inline-block;
+    background-color: red;
+}
+
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 329px;
+}
+
+
+.parent > div{
+    height: 150px;
+    width: 200px;  
+}
+
+.parent > div:first-child{ 
+    background-color: red;
+}
+
+.parent > div:last-child{ 
+    background-color: blue;
+}
+
+
+
+
+
+.news{
+    display: flex;
+    justify-content: center;
+}
+
+
+.news > .content{
+    width: 60%;
+    
+}
+
+
+.news > .content > .new-feed > .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news > .content > .new-feed {
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 25px;
+
+}
+
+.news > .content > .new-feed > .header > .user {
+    display: flex;
+  }
+
+.news > .content > .new-feed > .header > .user > .avatar > img{
+  width: 80px;
+}
+
+.news > .content > .new-feed > .header > .user > .avatar {
+    margin-right: 15px;
+}
+
+.news > .content > .new-feed  > .actions {
+    display: flex;
+}
+
+.news > .content > .new-feed  > .actions > div {
+    width: 33.33333%;
+}
+
+.news > .content > .new-feed  > .actions > div > button {
+    width: 100%;
+    border: 0;
+    padding: 10px 5px;
+}

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+
+.app{
+    display: flex
+}
+
+
+.app > aside {
+    width: 200px;
+    background-color: gray;
+    height: 100vh; /* Vertical Height */
+    padding: 20px;
+}
+
+
+.app > main{ 
+
+    width: calc( 100% - 200px );
+}
+
+.app > main >nav{
+    height: 58px;
+    background-color: gray;
+}
+
+
+.app > main > .content{ 
+    background-color: gray;
+    height: 500px;
+    margin: 25px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > .icon{
+    margin-right: 15px;
+}
+
+.menu > .icon > i {font-size: 38px;}

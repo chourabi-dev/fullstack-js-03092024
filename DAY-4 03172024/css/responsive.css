@@ -1,0 +1,22 @@
+/*
+@media screen and (min-width:500px) {
+    body{
+        display: none;
+    }
+}
+
+
+*/
+@media screen and (max-width:500px) {
+    .row{
+        display: block;
+    }
+
+    div[ class^="col-" ]{
+        width: 100%;
+    }
+}
+
+
+
+
